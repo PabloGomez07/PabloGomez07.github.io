@@ -39,94 +39,163 @@
 
 	<!--AQUI VA UN COMENTARIO-->
 	<main >
-		<section class=" card-deck container mx-auto">
-		<!--CARTAS DE SELECCION-->
-		<div class="card-deck  mx-auto mt-5">
-				<!--CARTAS AZUL-->
-			<div class="card text-center border-primary rounded mb-3" style="max-width: 18rem;">
-			  <div class="card-header">Estudiante</div>
-			  	<div class="card-body text-primary">
-			    	<h5 class="card-title">Tienen un descuento</h5>
-			    	<h4 class="card-title">80%</h4>
-			    	<p class="card-text">* Presentar documentación.</p>
-			  </div>
+		<section >
+			<!--AQUI VA EL CARRUSEL-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicadores del carrusel -->
+				  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Slides del carrusel -->
+				  <div class="carousel-inner">
+					    <div class="carousel-item active ">
+						      <img src="Img/ba1.jpg" class="d-block w-100" alt="Imagen 1">
+						      <div class="carousel-caption text-right col-md-6 offset-md-3 mb-5 vw-100">
+							        <h3 class="display-4">Conf Bs As</h3>
+							        <p class="lead">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemes para ti. Te esperamos!</p>
+							        <button class="btn btn-outline-light">Quiero ser orador</button>
+							        <button class="btn btn-success">Comprar tickets</button>
+						      </div>
+					    </div>
+					    <div class="carousel-item">
+						      <img src="Img/ba2.jpg" class="d-block w-100" alt="Imagen 2">
+						      <div class="carousel-caption text-right col-md-6 offset-md-3 mb-5 vw-100">
+							        <h3 class="display-4">Conf Bs As</h3>
+							        <p class="lead">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemes para ti. Te esperamos!</p>
+							        <button class="btn btn-outline-light">Quiero ser orador</button>
+							        <button class="btn btn-success">Comprar tickets</button>
+						      </div>
+					    </div>
+					    <div class="carousel-item">
+						      <img src="Img/ba3.jpg" class="d-block w-100" alt="Imagen 3">
+						      <div class="carousel-caption text-right col-md-6 offset-md-3 mb-5 vw-100">
+							        <h3 class="display-4">Conf Bs As</h3>
+							        <p class="lead">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemes para ti. Te esperamos!</p>
+							        <button class="btn btn-outline-light">Quiero ser orador</button>
+							        <button class="btn btn-success">Comprar tickets</button>
+						      </div>
+					    </div>
+				  </div>
+
+				  <!-- Controles del carrusel -->
+				  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Anterior</span>
+				  </a>
+				  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Siguiente</span>
+				  </a>
 			</div>
-			<!--CARTAS ROJO-->
-			<div class="card text-center border-danger mb-3" style="max-width: 18rem;">
-			  <div class="card-header">Trainee</div>
-			  	<div class="card-body text-danger">
-			    	<h5 class="card-title">Tienen un descuento</h5>
-			    	<h4 class="card-title">50%</h4>
-			    	<p class="card-text">* Presentar documentación.</p>
-			  </div>
-			</div>
-			<!--CARTAS AMARILLO-->
-			<div class="card text-center border-warning mb-3" style="max-width: 18rem;">
-			  <div class="card-header">Junior</div>
-			  	<div class="card-body text-warning">
-			    	<h5 class="card-title">Tienen un descuento</h5>
-			    	<h4 class="card-title">15%</h4>
-			    	<p class="card-text">* Presentar documentación.</p>
-			  </div>
-			</div>
-		</div>
-			
+
+
+
+			<!--SECCION ORADORES-->  
+			<article class="card-deck container mx-auto p-4">
+				<div class="container">
+					<h6 class="text-center">Conoce a los <h2 class="text-center">ORADORES</h2></h6>
+					
+				</div>
+				<div class="card" style="width: 18rem;">
+					<img src="./Img/steve.jpg" class="card-img-top" alt="Foto Steve Jobs">
+					<div class="card-body">
+						<span class="badge badge-warning">JavaScript</span>
+						<span class="badge badge-primary">React</span>
+						<h5 class="card-title">Steve Jobs</h5> 
+						  	<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p> 
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img src="./Img/bill.jpg" class="card-img-top" alt="Foto Bill Gates">
+					<div class="card-body">
+						<span class="badge badge-warning">JavaScript</span>
+						<span class="badge badge-primary">React</span>
+						<h5 class="card-title">Bill Gates</h5> 
+						  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p> 
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img src="./Img/ada.jpeg" class="card-img-top" alt="Foto Ada Lovelace">
+					<div class="card-body">
+						<span class="badge badge-secondary">Negocios</span>
+						<span class="badge badge-danger">Startups</span>
+						<h5 class="card-title">Ada Lovelace</h5> 
+						  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p> 
+					</div>
+				</div>
+			</article> 
+
+			<article >
+				<div class="container-fluid p-0 bg-dark">
+						<div class="row no-gutters align-items-center ">
+							<div class="col-md-6 p-3">
+								<img src="Img/honolulu.jpg" class="img-thumbnail">
+							</div>
+							<div class="col-md-6">
+								<div class=" jumbotron mb-0 p-6 bg-dark text-white">
+									  	<h1 class="display-4">Bs As - Octubre!</h1>
+										  <p class="lead">Buenos Aires es la provincia y la localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses.</p>
+										  <hr class="my-4">
+										  <p>Aunque el nombre Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 km de superficie).</p>
+										  <a class="btn btn-outline-light" href="#" role="button">Conocé más</a>
+							 	</div>
+							</div>
+						</div>
+				</div>
+			</article>
+		
+			<article>
+				
+			</article>
 		</section>
 
 		<!--SECCION FORMULARIO--> 
-		<section class="card-deck container mx-auto">
-		    <div class="card-deck mx-auto mt-5">
-		      <!-- ...código de las cartas de selección... -->
-		    </div>
-		    
-		    <div class="container my-5">
-		      <div class="row justify-content-center">
-		        <div class="col-md-8">
-		          <h6 class="text-center">Venta</h6>
-		          <h3 class="text-center">Valor de Ticket: $200</h3>
-		          		          
-		          <form id="myForm">
-		            <div class="row">
-		              <div class="col">
-		                <input type="text" class="form-control" placeholder="Nombres" required>
-		              </div>
-		              <div class="col">
-		                <input type="text" class="form-control" placeholder="Apellido" required>
-		              </div>
-		            </div>
+		<section class="container my-5">
+			<div class="row justify-content-center">
+				
+				<div class="col-md-8">
+					<h6 class="text-center">Convertite en un </h6><h3 class="text-center">Orador</h3>
+					<p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+						<form >
+								<div class="row">
+										<div class="col">
+											<input type="text" class="form-control" placeholder="Nombres">
+										</div>
 
-		            <div class="form-group">
-		              <label for="exampleFormControlInput1">Correo electrónico</label>
-		              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@example.com" required>
-		            </div>
+										<div class="col">
+											<input type="text" class="form-control" placeholder="Apellido">
+										</div>
+								</div>
+						</form>
+					
+						<form>
 
-		            <div class="form-row">
-		              <div class="form-group col-md-6">
-		                <label for="inputCity">Cantidad</label>
-		                <input type="number" class="form-control" id="inputCity" placeholder="#1" required>
-		              </div>
-		              <div class="form-group col-md-6">
-		                <label for="inputState">Categoría</label>
-		                <select id="inputState" class="form-control" required>
-		                  <option selected>Default select...</option>
-		                  <option value="estudiante">Estudiante</option>
-		                  <option value="trainee">Trainee</option>
-		                  <option value="junior">Junior</option>
-		                </select>
-		              </div>
-		            </div>
+							  <div class="mb-3">
+								    <label for="validationTextarea"></label>
+								    <textarea class="form-control" id="validationTextarea" rows="3" placeholder="Sobre qué quieres hablar?" required></textarea>
+								    	<p>Recuerda incluir un tituto para tu charla.</p>
+							  </div>
+							  		<button class="btn btn-success btn-lg btn-block" type="submit">Enviar</button>
 
-		           		<input class="form-control" type="text" id="resultado" placeholder="Total a pagar: $..." readonly>
-
-		            <div class="d-flex justify-content-around mt-3">
-		              <button id="borrar" class="btn btn-success mt-0 mr-2 btn-lg btn-block" >Borrar</button>
-		              <button id="resumen" class="btn btn-success mt-0 ml-2 btn-lg btn-block" >Resumen</button>
-		            </div>
-		          </form>
-		        </div>
-		      </div>
-		    </div>
-		  </section> 
+						 
+						</form>
+				</div>		
+			</div>		
+		</section> 
 	</main>
 
 	<!--PIE DE PAGINA FOOTER-->
